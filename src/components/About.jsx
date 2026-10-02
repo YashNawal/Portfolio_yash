@@ -107,17 +107,18 @@ const About = () => {
             <div className="space-y-5 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Cast & Background</h3>
               <p className="text-lg md:text-xl font-medium text-white/90 leading-relaxed">
-                I am <span className="text-white font-bold drop-shadow">Dasari Venkata Ratna Sri Sushmita</span>, a B.Tech student in Artificial Intelligence and Machine Learning at Aditya Engineering College.
+                I am <span className="text-white font-bold drop-shadow">Yash Nawal</span>, Technical Head at AWS Club Kolhapur and B.Tech student in Artificial Intelligence and Data Science at Government College of Engineering, Kolhapur.
               </p>
               <p className="text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My technical narrative bridges rigorous algorithmic problem-solving with full-stack software architecture, translating complex backend logic into seamless, high-performance interfaces.
+                Currently pursuing an <strong className="text-white font-medium">App & Web Development Internship</strong>, where I actively collaborate with cross-functional teams to build, optimize, and deploy robust functional applications. My vision bridges cloud computing, full-stack architecture, and mobile app development.
               </p>
             </div>
             
             <div className="pt-8 flex flex-wrap gap-2 relative z-10">
-              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">AI & ML</span>
-              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Full-Stack Development</span>
-              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">System Architecture</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">App & Web Dev Intern</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">AWS Technical Lead</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">AI & Data Science</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Team Collaborator</span>
             </div>
           </div>
 
@@ -139,19 +140,19 @@ const About = () => {
             </div>
             
             <div className="space-y-5 relative z-10">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Milestones & Accolades</h3>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Milestones & Experience</h3>
               <ul className="space-y-3.5 text-sm text-white/80 font-light">
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>National Semi-Finalist in <strong className="text-white">Flipkart GRiD 7.0</strong> competition.</span>
+                  <span><strong className="text-white">App & Web Development Intern</strong> – Collaborated with a team to build functional web & mobile applications.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>Member of the elite <strong className="text-white">AlgoUniversity Tech Fellowship</strong> for advanced data structures.</span>
+                  <span><strong className="text-white">Technical Head @ AWS Club Kolhapur</strong> – Spearheaded cloud workshops, hackathons & technical events.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>Certified <strong className="text-white">GitHub Foundations</strong> & <strong className="text-white">AWS Certified AI Practitioner</strong>.</span>
+                  <span><strong className="text-white">Full-Stack & Mobile Projects</strong> – Engineered Voting System, Flutter Apps & IoT Smoke Detector.</span>
                 </li>
               </ul>
             </div>
@@ -180,7 +181,7 @@ const About = () => {
             </div>
             
             <div className="flex flex-wrap items-center gap-3 relative z-10">
-              {['React', 'Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'Docker', 'JavaScript'].map((tech, idx) => (
+              {['Python', 'JavaScript', 'TypeScript', 'React.js', 'Flutter', 'Node.js', 'Express.js', 'AWS', 'Docker', 'SQL', 'MongoDB'].map((tech, idx) => (
                 <span
                   key={idx}
                   className="px-4 py-2 rounded bg-white/[0.04] border border-white/10 text-xs font-mono uppercase tracking-wider text-white shadow-inner hover:bg-red-600/20 hover:border-red-600/40 hover:scale-105 transition-all"
